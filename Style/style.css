@@ -1,0 +1,116 @@
+:root{
+--fondo: #dcf0ff;
+--texto: #176B87;
+--accent:#E8315D;
+
+}
+
+*{
+   color: var(--texto); 
+   font-family: 'Roboto', sans-serif;
+
+}
+
+.fondo{
+    margin: 1%;
+    background-color: white;
+    position: relative;
+}
+
+.fondo2{
+    background-color: var(--fondo);
+    width: 100%;  
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+}
+
+.nav img{
+    width: 50px;
+    height: auto;
+}
+
+.nav p{
+    font-size: 20px;
+}
+
+.menu{
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.principal{
+    margin: 50px auto;
+    display: flex;
+}
+
+.principal h1,h5{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.principal img{
+    margin-left: -100px;
+}
+
+.principal span{
+    font-weight: 800;
+}
+
+.texto-principal{
+    margin-top: 160px;
+    margin-left: 40px;
+}
+
+.tecnologias{
+    display: flex;
+    gap: 3.7rem;
+    margin-top: 90px;
+}
+
+.tecnologias img{
+    width: 50px;
+    height: auto;
+}
+.proyectos{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.proyectos h1{
+    margin-bottom: 30px;
+    letter-spacing: 1rem;
+}
+
+
+.proyecto{
+    display: flex;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.texto-proyecto{
+    text-align: start;
+}
+.texto-proyecto h3{
+    color: var(--accent);
+    font-size: 25px;
+    margin-top: -28px;
+    margin-bottom: 30px;
+}
