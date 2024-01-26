@@ -15,15 +15,18 @@
     <div class="fondo2">
       <nav class="nav">
         <div class="menu">
-          <img src="img/Icono-J.png" alt="Logo J" />
-          <a class="navbar-brand" href="#">
-            <img src="img/list.svg" alt="icono menú" />
-          </a>
+            <input type="checkbox" id="menu-toggle" checked/>
+            <label for="menu-toggle"></label>
+            <ul id="menu">
+                <a class= "menu-lista" href="index.html"><li>Principal</li></a>
+                <a class= "menu-lista" href="#"><li>Sobre mi</li></a>
+                <a class= "menu-lista" href="Cv.html"><li>Cv</li></a>
+            </ul>
+            <img src="img/Icono-J.png" alt="Logo J" />
         </div>
-        <div class="menu">
-            <img src="img/chat.svg" alt="icono contacto" />
-            <a class="navbar-brand" href="#"></a>
-                <p style="margin-left: 1rem">CONTÁCTAME</p>
+        <div class="menu"> 
+            <a class= "contacto" href="#">
+                <img src="img/chat.svg" alt="icono contacto" />
             </a>
         </div>
       </nav>
@@ -36,17 +39,17 @@
             <img src="img/Pixar image 1.png" alt="">
         </section>
         <div class = "tecnologias">
-            <img src="img/Logo-Kotlin.png" alt="">
-            <img src="img/Lodo-compose.png" alt="">
-            <img src="img/Logo-Java.png" alt="">
-            <img src="img/csharp.svg" alt="">
-            <img src="img/Logo-HTML5.png" alt="">
-            <img src="img/Logo-CSS3.png" alt="">
-            <img src="img/Logo-js.png" alt="">
-            <img src="img/Logo-PHP.png" alt="">
+            <img src="img/Logo-Kotlin.png" alt="Logo-Kotlin">
+            <img src="img/Lodo-compose.png" alt="Logo-compose">
+            <img src="img/Logo-Java.png" alt="Logo-Java">
+            <img src="img/csharp.svg" alt="Logo-C#">
+            <img src="img/Logo-HTML5.png" alt="Logo-HTML5">
+            <img src="img/Logo-CSS3.png" alt="Logo-CSS3">
+            <img src="img/Logo-js.png" alt="Logo-js">
+            <img src="img/Logo-PHP.png" alt="Logo-PHP">
         </div>
         <section class= "proyectos">
-            <h1>PROYECTOS</h1>
+            <h1 class="titulo-seccion" >PROYECTOS</h1>
             <div>
                 <div class="proyecto">
                     <div class = "texto-proyecto">
@@ -55,15 +58,122 @@
                         </p>
                         <div class = "iconos-proyecto">
                             <a href="">
-                                <img src="img/Play.png" alt="">
+                                <img src="img/Play.png" alt="Icono Play">
                             </a>
-                            <a href="">
-                                <img src="img/GitHub.png" alt="">
+                            <a href="https://github.com/JoelPMrz?tab=repositories">
+                                <img src="img/GitHub.png" alt="Icono GitHub">
                             </a>
                         </div>    
                     </div>
-                    <img src="img/FlappyBird.png" alt="">
+                    <img class = "video" src="img/FlappyBird Video.gif" alt="Juego Flappy bird">
                 </div>
+                <div>
+                  <div class="proyecto reverse">
+                      <div class = "texto-proyecto">
+                          <h3>PONG</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint totam atque error recusandae facere dolore vel ex, quas labore a repellat unde voluptatem sequi voluptates
+                          </p>
+                          <div class = "iconos-proyecto">
+                              <a href="">
+                                  <img src="img/Play.png" alt="Icono Play">
+                              </a>
+                              <a href="https://github.com/JoelPMrz?tab=repositories">
+                                  <img src="img/GitHub.png" alt="Icono GitHub">
+                              </a>
+                          </div>    
+                      </div>
+                      <img class = "video" src="img/PongVideo.gif" alt="Juego Flappy bird">
+                  </div>
+                  <div>
+                    <div class="proyecto">
+                        <div class = "texto-proyecto">
+                            <h3>ZOMBIE FOREST</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint totam atque error recusandae facere dolore vel ex, quas labore a repellat unde voluptatem sequi voluptates
+                            </p>
+                            <div class = "iconos-proyecto">
+                                <a href="">
+                                    <img src="img/Play.png" alt="Icono Play">
+                                </a>
+                                <a href="https://github.com/JoelPMrz?tab=repositories">
+                                    <img src="img/GitHub.png" alt="Icono GitHub">
+                                </a>
+                            </div>    
+                        </div>
+                        <img class = "video" src="img/ZombieForestVideo.gif" alt="Juego Flappy bird">
+                    </div>
+                    <div class="proyecto reverse">
+                      <div class = "texto-proyecto">
+                          <h3>BENDITA SHOP</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint totam atque error recusandae facere dolore vel ex, quas labore a repellat unde voluptatem sequi voluptates
+                          </p>
+                          <div class = "iconos-proyecto">
+                              <a href="file:///C:/Users/JoelP%C3%A9rezMart%C3%ADnez/Desktop/DAM/LM/1%C2%AA%20EVA/IMG/DOCS/Web%20Bendita/index.html">
+                                  <img src="img/Play.png" alt="Icono Play">
+                              </a>
+                              <a href="https://github.com/JoelPMrz?tab=repositories">
+                                  <img src="img/GitHub.png" alt="Icono GitHub">
+                              </a>
+                          </div>    
+                      </div>
+                      <img class = "video" src="img/Bendita Shop.png" alt="Juego Flappy bird">
+                    </div>
+                    <div class="proyecto">
+                      <div class = "texto-proyecto">
+                          <h3>PROYECTO X</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint totam atque error recusandae facere dolore vel ex, quas labore a repellat unde voluptatem sequi voluptates
+                          </p>
+                          <div class = "iconos-proyecto">
+                              <a href="">
+                                  <img src="img/Play.png" alt="Icono Play">
+                              </a>
+                              <a href="https://github.com/JoelPMrz?tab=repositories">
+                                  <img src="img/GitHub.png" alt="Icono GitHub">
+                              </a>
+                          </div>    
+                      </div>
+                      <img class = "video" src="img/Video Proyecto X.gif" alt="Juego Flappy bird">
+                  </div>
+            </div>
+        </section>
+        <section class= "proyectos">
+            <h1 class="titulo-seccion">FP DUAL</h1>
+            <div class= "Fp-dual-texto">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt et ducimus perferendis quasi, autem dolore ratione officiis. Numquam, cupiditate, consequuntur praesentium ex mollitia ullam quod saepe doloribus eos minus voluptatem? Nobis corporis officiis pariatur amet mollitia error sunt a commodi voluptas eum, beatae rem quas, animi eos! Perferendis, odio officiis.</p>
+                <div class="Fp-dual-Contactos">
+                    <div class="Fp-dual-contenido">
+                        <div class="Fp-dual-titulo">
+                            <img src="img/person-circle.svg" alt="Icono persona">
+                            <h3>ERNESTO DOMENECH</h3>
+                        </div>
+                        <p>ernesto.domenech@campusaula.com</p>
+                    </div>
+                    <div class="Fp-dual-contenido">
+                        <div class="Fp-dual-titulo">
+                            <img src="img/Logo Aula Campus.png" alt="Icono persona">
+                            <h3>AULA CAMPUS</h3>
+                        </div>
+                        <p>ernesto.domenech@campusaula.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class= "proyectos">
+            <h1 class="titulo-seccion">HABILIDADES</h1>
+            <h2 class = "subtitulo-seccion">HERRAMIENTAS UTILIZADAS</h2>
+            <div class = "tecnologias">
+                <img src="img/Logo Android estudio 1.png" alt="Logo-Android Estudio">
+                <img src="img/Logo NetBeans 1.png" alt="Logo NetBeans">
+                <img src="img/Logo Unity 1.png" alt="Logo Unity">
+                <img src="img/Logo Visual Studio 1.png" alt="Logo Visual Studio">
+                <img src="img/Logo Git 1.png" alt="Logo Git">
+                <img src="img/Logo Scrum 1.png" alt="Logo Scrum">
+            </div>
+            <div class = "tecnologias">
+                
+                <img src="img/Logo Boostrap 1.png" alt="Logo Boostrap">
+                <img src="img/Oracle DataBase 1.png" alt="Logo Orcale DataBase">
+                <img src="img/Logo MySQL 1.png" alt="Logo MySQL">
+                <img src="img/Logo Lunix 1.png" alt="Logo Linux">
             </div>
         </section>
       </main>
