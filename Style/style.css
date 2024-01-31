@@ -63,7 +63,7 @@
 .contacto ul img{
     height: 40px;
     width: auto;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .contacto ul img:hover{
