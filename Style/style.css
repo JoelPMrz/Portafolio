@@ -380,11 +380,11 @@ label:after {
     .principal img{
         margin-left: 0px;
         margin-top: 30px;
-        width: 80%;
+        width: 60%;
     }
 
     .texto-principal{
-        margin-top: -40px;
+        margin-top: -35px;
         margin-left: 10px;
         width: 80%;
     }
@@ -396,12 +396,25 @@ label:after {
     }
 
     .tecnologias{
-        margin-top: 20px;
+        display: flex;
+        gap: 3.7rem;
+        margin: 70px auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .tecnologias{
+        margin-top: 15px;
         margin-bottom: 60px; 
+        gap: 2rem;
     }
 
     .tecnologias img{
-        height: 45px;
+        height: 40px;
+    }
+
+    .bloque-tecnologias{
+        gap: 2.5em;
     }
 
     .proyectos{
@@ -421,9 +434,9 @@ label:after {
         margin-bottom: 50px;
     }
 
-        .texto-principal h5 br{
+    .texto-principal h5 br{
             display: none;
-        }
+    }
 
      
 }
