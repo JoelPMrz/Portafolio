@@ -81,6 +81,8 @@ main{
 .principal{
     margin-bottom: 30px;
     display: flex;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .principal h1,h5{
@@ -107,6 +109,7 @@ main{
     gap: 3.7rem;
     margin: 70px auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .tecnologias img{
@@ -123,6 +126,7 @@ main{
 .proyectos{
     margin: 50px auto;
     text-align: center;
+    width: 100%;
 }
 
 .titulo-seccion{
@@ -357,6 +361,55 @@ label:after {
         padding: 15px;
         width: 70%;
         margin: 40px auto;
+    }
+
+    .principal{
+        flex-direction:column-reverse;
+        align-items: center;
+    }
+
+    .principal img{
+        margin-left: 0px;
+        margin-top: 30px;
+        width: 80%;
+    }
+
+    .texto-principal{
+        margin-top: -40px;
+        margin-left: 10px;
+        width: 80%;
+    }
+
+    .principal h1,h5{
+        font-size: 28px;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .tecnologias{
+        margin-top: 20px;
+        margin-bottom: 60px; 
+    }
+
+    .tecnologias img{
+        height: 50px;
+    }
+
+    .proyectos{
+        margin: 20px auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Fp-dual-Contactos{
+        flex-direction:column;
+        gap: 40px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .subtitulo-seccion{
+        margin-bottom: 50px;
     }
 
 }
