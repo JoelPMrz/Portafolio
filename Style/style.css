@@ -389,9 +389,6 @@ h5 {
     height: 100%;
 }
 
-.menu-lista img:hover {
-    transform: rotate(360deg);
-}
 
 #menu li:hover {
     background-color: rgba(255, 255, 255, 0.782);
@@ -556,6 +553,11 @@ h5 {
         width: 20px;
         height: 0 auto;
         margin-bottom: 10px;
+    }
+
+    .menu-lista img {
+        width: 22px;
+        height: 100%;
     }
 
 }
