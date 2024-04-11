@@ -152,10 +152,6 @@ h5 {
     margin: 40px auto;
 }
 
-.proyecto>img:hover {
-    width: 1000px;
-    height: 100%;
-}
 
 .proyecto>img {
     width: 350px;
@@ -200,6 +196,7 @@ h5 {
 
 .texto-proyecto p a {
     text-decoration: none;
+    color: #048ae3;
 }
 
 .texto-proyecto p a:hover {
