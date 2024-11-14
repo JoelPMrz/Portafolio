@@ -66,8 +66,8 @@ b {
 }
 
 .texto-bienvenida h1 {
-    background: linear-gradient(90deg, #47e6a1, #3abf97, #3fd2be); /* Degradado en tonos verdes y azules */
-    -webkit-background-clip: text; /* Recorta el fondo al texto para mostrar el degradado */
+    background: linear-gradient(90deg, #47e6a1, #3abf97, #3fd2be); 
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3.5em;
     margin-bottom: 10px;
@@ -133,8 +133,8 @@ main {
 }
 
 .descripcion-proyecto h2 {
-    background: linear-gradient(90deg, #a42bf0,  #f06b2b, #f0942b); /* Degradado en tonos verdes y azules */
-    -webkit-background-clip: text; /* Recorta el fondo al texto para mostrar el degradado */
+    background: linear-gradient(90deg, #a42bf0,  #f06b2b, #f0942b); 
+    -webkit-background-clip: text; 
     -webkit-text-fill-color: transparent;
     font-size: 2.5em;
     font-weight: bold;
