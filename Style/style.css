@@ -56,9 +56,10 @@ b {
 .redes-superiores img {
     width: 50px;
     height: 50px;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1) ;
     cursor: pointer;
     transition: transform 0.2s ease;
+    
 }
 
 .redes-superiores img:hover {
@@ -117,19 +118,22 @@ main {
 }
 
 .contenedor-izquierda {
-    width: 70%;
+    width: 70%;  
 }
 
 .descripcion-proyecto {
     flex: 1;
     padding: 20px;
-    background-color: rgba(239, 239, 239, 0.296);
+    background-color: rgba(255, 255, 255, 0.296);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     height: 100%;
     position: relative;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 14px rgba(126, 126, 126, 0.2);
 }
 
 .descripcion-proyecto h2 {
@@ -153,6 +157,7 @@ main {
     left: 70px;
     width: auto;
     height: 40px;
+    filter: drop-shadow(2px 2px 4px rgba(70, 70, 70, 0.5));
 }
 
 #logo-kotlin {
@@ -161,6 +166,7 @@ main {
     left: 20px;
     width: 40px;
     height: auto;
+    filter: drop-shadow(2px 2px 4px rgba(70, 70, 70, 0.5));
 }
 
 #logo-github {
@@ -171,6 +177,7 @@ main {
     height: auto;
     opacity: 0.8;
     transition: width 0.7s ease, opacity 0.7s ease, transform 0.7s ease;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 #logo-github:hover {
@@ -192,11 +199,14 @@ main {
     gap: 12px;
     justify-content: center;
     align-items: center;
-    background-color: rgba(239, 239, 239, 0.296);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 15px;
     border-radius: 8px;
     max-height: 100%; 
-    overflow: hidden; 
+    overflow: hidden;
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); 
+    box-shadow: 0 4px 14px rgba(176, 176, 176, 0.2);
 }
 
 .miniatura-proyecto {
@@ -207,6 +217,7 @@ main {
     margin-right: 8px;
     transition: transform 0.2s ease;
     object-fit: cover; 
+    filter: drop-shadow(2px 2px 4px rgba(132, 132, 132, 0.5));
 }
 
 .miniatura-proyecto:hover {
