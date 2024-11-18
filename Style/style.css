@@ -54,12 +54,11 @@ b {
 }
 
 .redes-superiores img {
-    width: 50px;
-    height: 50px;
+    width: 53px;
+    height: 53px;
     filter: brightness(0) invert(1) ;
     cursor: pointer;
     transition: transform 0.2s ease;
-    
 }
 
 .redes-superiores img:hover {

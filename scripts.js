@@ -47,7 +47,8 @@ function cambiarProyecto(proyecto) {
         "Proyecto 7": {
             titulo: "Próximamente",
             descripcion: "Proyecto en desarrollo...",
-            video: "img/ProximamenteApp.mp4",
+            video: "img/MusicApp.mp4",
+            tecnologia: "img/Lodo-compose.png",
             github: "https://github.com/JoelPMrz" 
         }
         
