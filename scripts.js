@@ -49,7 +49,7 @@ function cambiarProyecto(proyecto) {
             descripcion: "Proyecto en desarrollo...",
             video: "img/MusicApp.mp4",
             tecnologia: "img/Lodo-compose.png",
-            github: "https://github.com/JoelPMrz" 
+            github: "https://github.com/JoelPMrz/MusicApp" 
         }
         
     };
