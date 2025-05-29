@@ -6,7 +6,7 @@ function cambiarProyecto(proyecto) {
             descripcion: "Diseño moderno con <b>Jetpack Compose</b> y navegación con <b>Navigation 2</b>. <b>Coil</b> para la carga de imágenes y <b>composables reutilizables</b> para reutilización de código. \n\n<b>Firestore</b> almacena en la nube las colecciones y documentos, permitiendo sincronizar en tiempo real. <b>Storage</b> maneja imágenes, vinculadas a los documentos. <b>SharedPreferences</b> guarda localmente <b>modo oscuro</b>, filtros aplicados y datos temporales del usuario. \n\nPatrón <b>MVVM</b> junto con principios de <b>Clean Architecture</b>, asegurando una separación clara de responsabilidades. Se utilizan <b>ViewModels</b>, <b>Repositories</b>, y <b>Use Cases</b> para una estructura mantenible. Datos reactivos con <b>corutinas</b> y <b>Flows</b>.\n\n<b>Authentication</b> para login seguro. <b>Analytics</b> para seguimiento de eventos. <b>Dagger Hilt</b> para inyección de dependencias. ",
             video: "img/PetlyApp.mp4",
             tecnologia: "img/Lodo-compose.png",
-            github: "https://github.com/JoelPMrz/Pets-App" 
+            github: "https://github.com/JoelPMrz/Petly---Asistente-digital-para-el-cuidado-de-mascotas" 
             
         },
         "Proyecto 2": {
@@ -14,7 +14,7 @@ function cambiarProyecto(proyecto) {
             descripcion: "Gestión de tareas con interfaz en <b>XML</b> y arquitectura <b>MVVM</b>, usando <b>ViewModel</b>, <b>LiveData</b> y patrón <b>Repository</b>.  \n\nPersistencia local con <b>Room Database</b> y operaciones <b>CRUD</b> .\n\nFiltro de tareas y modo oscuro gestionados con <b>SharedPreferences</b> mediante un <b>Toggle</b> y clase <b>PreferencesManager</b> personalizada.\n\nListado de personajes obtenido por <b>Retrofit 2</b> con paginación, y sistema de favoritos persistido en <b>SharedPreferences</b>. Vista de <b>favoritos</b> sincronizada dinámicamente con los datos originales.",
             video: "img/RickTaskApp.webm",
             tecnologia: "img/xml.png",
-            github: "https://github.com/JoelPMrz/Pets-App" 
+            github: "https://github.com/JoelPMrz/Rick-Task" 
             
         },
         "Proyecto 6": {
