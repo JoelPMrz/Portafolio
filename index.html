@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Joel Pérez</title>
+
+
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="img/Portfolio-logo.png" type="image/x-icon">
+
+    <meta property="og:title" content="Joel Pérez" />
+    <meta property="og:description"
+        content="Portafolio personal de Joel Pérez. Descubre mis proyectos y habilidades en desarrollo de aplicaciones móviles." />
+    <meta property="og:image" content="https://joelperez.netlify.app/img/Portfolio-logo.png" />
+    <meta property="og:url" content="https://joelperez.netlify.app" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Joel Pérez" />
+    <meta name="twitter:description"
+        content="Portafolio personal de Joel Pérez. Descubre mis proyectos y habilidades en desarrollo de aplicaciones móviles." />
+    <meta name="twitter:image" content="https://joelperez.netlify.app/img/Portfolio-logo.png" />
+</head>
+
+<body onload="cambiarProyecto('Proyecto 1')">
+    <header class="header-bienvenida">
+
+        <div class="derechos-autor">
+            <img class="logo-autor" src="img/Portfolio-logo.png" alt="">
+        </div>
+        <div class="redes-superiores">
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img
+                    src="img/linkedin.png" alt="LinkedIn"></a>
+            <a href="mailto:joelperezmartinez01@gmail.com"><img src="img/correo (2).png" alt="Correo"></a>
+            <a href="https://github.com/JoelPMrz"><img src="img/GitHub.png" alt="GitHub"></a>
+            <a href="img/Cv Joel Pérez Martínez.pdf" download>
+                <img src="img/CV-removebg-preview.png" alt="Descargar CV">
+            </a>
+        </div>
+
+        <div class="texto-bienvenida">
+            <h1 id="bienvenida-h1">¡Hola! Soy Joel Pérez</h1>
+            <p id="bienvenida-p">Especializado en desarrollo móvil, con un gran enfoque en el ecosistema nativo Android . Motivado por crecer colaborando en buenos proyectos, rodeado de un entorno positivo</p>
+        </div>
+        <img src="img/Pixar image 1.png" alt="Imagen de Joel Pérez" class="img-bienvenida">
+        <div class="curva-inferior"></div>
+    </header>
+
+
+    <main>
+        <section class="seccion-proyecto-detalle">
+            <div class="contenedor-izquierda">
+                <div class="descripcion-proyecto" id="descripcion-proyecto">
+                    <h2 data-shadow='dang!'>Título del Proyecto</h2>
+                    <p>Descripción breve del proyecto seleccionado.</p>
+                    <img id="logo-kotlin" src="img/Logo-Kotlin.png" alt="Logo de tecnología">
+                    <img id="logo-tecnologia" src="" alt="Logo de tecnología" style="display:none;">
+                    <a href="" id="link-github" target="_blank">
+                        <img id="logo-github" src="img/GitHub-Logo.wine.png" alt="Logo de GitHub">
+                    </a>
+                </div>
+            </div>
+
+            <div class="galeria-proyectos">
+                <img src="img/miniPetlyApp.webp" alt="Proyecto 1" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 1')">
+                    <img src="img/miniRickTaskApp.webp" alt="Proyecto 2" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 2')">
+                <img src="img/miniPetsApp.png" alt="Proyecto 3" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 3')">
+                <img src="img/miniStoreApp.png" alt="Proyecto 4" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 4')">
+                <img src="img/miniRickApp.png" alt="Proyecto 5" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 5')">
+                <img src="img/miniCalculatorApp.png" alt="Proyecto 6" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 6')">
+                <img src="img/miniSneakersApp.png" alt="Proyecto 7" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 7')">
+                <img src="img/miniTaskApp.png" alt="Proyecto 8" class="miniatura-proyecto"
+                    onclick="cambiarProyecto('Proyecto 8')">
+            </div>
+
+            <div class="imagen-proyecto" id="imagen-proyecto">
+                <video id="video-proyecto" autoplay loop muted disablePictureInPicture src="ruta-del-video.mp4"></video>
+                <img src="img/pixel7.png" alt="Móvil Fijo" id="movil-fijo">
+            </div>
+
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
